@@ -16,7 +16,7 @@ function Player() {
         return setVideo(...dados)
       })
   
-    }, [])
+    }, [parametros.id])
 
 
     if(!video){
